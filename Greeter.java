@@ -17,6 +17,11 @@ public class Greeter {
   }
 
   public static void main(String[] args) {
+    if(args == void){
+      cout<<"nothing be commited"<<endl;
+      return 0;
+    }
+    else:
     String language = args[0];
     String country = args[1];
     String name = args[2];
